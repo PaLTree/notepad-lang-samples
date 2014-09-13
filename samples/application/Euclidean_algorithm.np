@@ -1,0 +1,11 @@
+local m = 1071;
+local n = 1029;
+local a = n;
+
+while n > 0:
+  a = n;
+  n = m % n;
+  m = a;
+elihw
+
+print("G.C.D. is #{a}.\n");
